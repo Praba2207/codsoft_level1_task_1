@@ -1,0 +1,224 @@
+<html>
+    <head>
+        <title>GMAc</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Poppins" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+        <script defer src="window.js"></script>
+    </head>
+    <body>
+        <section id="header">
+        <div class="head">
+            <div class="logo">
+                <h1 style="-webkit-text-fill-color:black;">GM Airconditioners</h1>
+            </div>
+            <div class="navbar">
+                <div class="dropdown">
+                    <button class="dropbtn">PRODUCTS
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <div class="pro">
+                          <figure>
+                            <img src="central.png" style="width:200px;height: 100px;">
+                            <figcaption><center>Central Ac</center></figcaption>
+                          </figure>
+                          <figure>
+                            <img src="windowac.png" style="width:200px;height: 100px;">
+                            <figcaption><center>Window Ac</center></figcaption>
+                          </figure>
+                          <figure>
+                            <img src="portable.jpg" style="width:200px;height: 100px;">
+                            <figcaption><center>Portable Ac</center></figcaption>
+                          </figure>
+                          <figure>
+                            <img src="ductless.jpg" style="width:200px;height: 100px;">
+                            <figcaption><center>Ductless Ac</center></figcaption>
+                          </figure>
+                          <figure>
+                            <img src="aircooler.png" style="width:200px;height: 100px;">
+                            <figcaption><center>Aircoolers</center></figcaption>
+                          </figure>
+                        </div>
+                    </div>
+                </div> 
+                <div class="dropdown">
+                    <button class="dropbtn">GM IN INDIA
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="#">About Us</a>
+                      <a href="#">Cooling Technology</a>
+                      <a href="#">Environment</a>
+                      <a href="#">Business Classified DPG</a>
+                      <a href="#">GM Finance</a>
+                    </div>
+                </div> 
+                <div class="dropdown">
+                    <button class="dropbtn">SERVICES
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="#">Customer Services</a>
+                      <a href="#">1year Free Services</a>
+                      <a href="#">3year warranty</a>
+                    </div>
+                </div> 
+                <a href="#">CUSTOMER CARE</a>
+                <div class="dropdown">
+                  <button class="dropbtn">MEDIA
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="#">Press Release</a>
+                    <a href="#">Articles/Reviews</a>
+                  </div>
+                </div> 
+                <div class="dropdown">
+                    <button class="dropbtn">MORE
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="#"></a>
+                      <a href="#">Awards</a>
+                      <a href="#">Manufacturing</a>
+                      <a href="#">Customer Stories</a>
+                      <a href="#">Festival Offers</a>
+                    </div>
+                </div>  
+            </div>
+            <button type="submit">BUY ONLINE</button>
+            <img src="phone.png" style="width: 20px;margin-left: 5px;height: 20px;margin-top: 10px;">
+        </div>
+        </section>
+        <section id="slideshow">
+          <div class="image-slideshow">
+            <div class="image fade">
+              <img src="banner.jpg">
+              <h1><img src="vm.png"style="width:340px"><br><p>Stay Cool This Summer....With GM Ac</p></h1>
+            </div>        
+            <div class="image fade">
+              <img src="photo.webp">
+              <h1><img src="vm.png"style="width:340px"><br><p>Stay Cool This Summer....With GM Ac</p></h1>
+            </div>   
+            <div class="image fade">
+              <img src="photo1.jpg">
+              <h1><img src="vm.png"style="width:340px"><br><p>Stay Cool This Summer....With GM Ac</p></h1>
+            </div>      
+        </div>
+        </section>
+        <script>
+          let index = 0;
+          displayImages();
+          function displayImages() {
+            let i;
+            const images = document.getElementsByClassName("image");
+            for (i = 0; i < images.length; i++) {
+              images[i].style.display = "none";
+            }
+            index++;
+            if (index > images.length) {
+              index = 1;
+            }
+            images[index-1].style.display = "block";
+            setTimeout(displayImages, 6000); 
+          }    
+      </script>
+      <section class="hidden">
+        <section id="menu">
+          <div class="m1" onclick="window.location.href='#'">
+            <center><img src="money.png"></center><br>
+            <center><p>Minimum Upfront Payment</p></center>
+          </div>
+          <div class="m1" onclick="window.location.href='#'">
+            <center><img src="pricetag.png"></center><br>
+          <center><p>Price Range</p></center>
+          </div>
+            <div class="m1" onclick="window.location.href='#'">
+              <center><img src="time.png"></center><br>
+          <center><p>24hrs Services </p></center>
+          </div>
+          <div class="m1" onclick="window.location.href='#'">
+            <center><img src="satis.png"></center><br>
+          <center><p> Satisfaction Guarantee</p></center>
+          </div>
+          <div class="m1" onclick="window.location.href='#'">
+            <center><img src="work.png"></center><br>
+          <center><p>15years work Experience</p></center>
+          </div>
+        </section>
+      </section>
+      <section class="hidden">
+      <section id="price">
+        <center>
+        <h2>GM Product Ranges</h2>
+        <div class="p1">
+          <figure onclick="window.location.href='#'">
+            <img src="central.png" style="width:200px;height: 100px;">
+            <figcaption><center>Central Airconditioner<br><p>INR 17500</p></center></figcaption>
+          </figure>
+          <figure onclick="window.location.href='#'">
+            <img src="windowac.png" style="width:200px;height: 100px;">
+            <figcaption><center>window Air Conditioner<br><p>INR 25,000</p></center></figcaption>
+          </figure>
+          <figure onclick="window.location.href='#'">
+            <img src="airc(2).jpg" style="width:200px;height: 100px;">
+            <figcaption><center>Portable Air Conditioner <br><p>INR 30,750</p></center></figcaption>
+          </figure>
+          <figure onclick="window.location.href='#'">
+            <img src="ductle.jpg" style="width:200px;height: 100px;">
+            <figcaption><center>Ductless Mini-split<br><p>INR 38,000</p></center></figcaption>
+          </figure>
+          <figure onclick="window.location.href='#'">
+            <img src="airc(1).jpg" style="width:200px;height: 100px;">
+            <figcaption><center>Air Cooler<br><p>INR 8,985</p></center></figcaption>
+          </figure>
+        </div>
+      </center>
+      </section>
+    </section>
+    <section class="hidden">
+      <section id="footer">
+        <div class="contact">
+          <h1>Contact GM Airconditioner</h1><br><br>
+          <div class="det">
+              <div class="d">
+                  <img src="location.webp" style="width:26px">
+              </div>
+              <div class="d">
+                  <p style="margin-left: 15px;">Location : Tamilnadu</p><br>
+              </div>
+          </div>
+          <div class="det">
+              <div class="d">
+                  <img src="phone.png" style="width:30px">
+              </div>
+              <div class="d">
+                  <p style="margin-left: 15px;">Phone : +91 8964753109</p><br>
+              </div>
+          </div>
+          <div class="det">
+              <div class="d">
+                  <img src="email.png" style="width:30px">
+              </div>
+              <div class="d">
+                  <p style="margin-left: 15px;">E-Mail : GMAc13@gmail.com</p><br>
+              </div>
+          </div>
+          <div class="det">
+              <div class="d">
+                  <img src="instra.png" style="width:30px">
+              </div>
+              <div class="d">
+                  <p style="margin-left: 15px;">Instagram : GM_Ac_13 </p><br>
+              </div>
+          </div>  
+      </div>
+      <div class="lg">
+        <img src="logo.png" style="width:200px;height: 200px;">
+      </div>
+      </section>
+    </section>
+    </body>
+</html>
